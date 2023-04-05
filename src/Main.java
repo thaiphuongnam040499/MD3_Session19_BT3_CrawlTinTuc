@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
-        String url = "http://dantri.com.vn/the-gioi.htm";
+        String url = "https://dantri.com.vn/the-gioi.htm";
         try {
             URLConnection conn = new URL(url).openConnection();
             BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream()));
